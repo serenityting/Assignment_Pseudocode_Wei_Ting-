@@ -95,3 +95,20 @@ function save_matched_result(matched_table):
 
 function review_results(matched_table):
     analyze_and_interpret(matched_table)
+
+
+
+//External function
+1. Sequencing Data Generation (sequence_data)
+   
+2. Alignment Tools (align_reads)
+   Run in BWA, Bowtie2, or other alignment software.
+   
+3. Variant Calling (call_variants)
+    Use GATK, FreeBayes, or other variant callers.
+   
+4. Annotation Tools (annotate_variants)
+   Use external annotation databases: ANNOVAR, SnpEff.
+   
+5. Comparison with External Databases (match_with_database)
+   - Query external databases: dbSNP, ClinVar, or custom variant databases.
